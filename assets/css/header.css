@@ -1,0 +1,24 @@
+.cv-navbar {
+    background-color: gray;
+    width: 100%;
+    & > ul {
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+        margin: 0px 15px 10px 15px;
+        flex-wrap: wrap;
+        & > li {
+            & > a {
+                color: white;
+            }
+            & > a:hover {
+                color: red;
+            }
+        }
+    }
+}
+
+
+
+
+

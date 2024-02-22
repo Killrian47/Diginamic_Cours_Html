@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page CV</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#compétences">Compétences</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#formations">Formations</a></li>
+          <li><a href="#cv-footer">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Killian PORTIER</h1>
+
+      <img src="../assets/img/me.jpg" alt="Photo de profil" width="100" />
+
+      <section>
+        <h2>M'envoyer un mail</h2>
+        <form action="GET">
+          <label for="mail">Votre adresse mail</label>
+          <input type="email" name="mail" id="mail" />
+          <label for="message">Votre message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <button type="submit">Me contacter</button>
+        </form>
+      </section>
+
+      <section id="compétences">
+        <h2>Compétences</h2>
+
+        <p>HTML / CSS / Bootstrap / PHP / SQL / Git</p>
+      </section>
+
+      <section id="projets">
+        <h2>Projets</h2>
+
+        <article>
+          <h4>1er projet : Portfolio</h4>
+          <img
+            src="../assets/img/portfolio.png"
+            alt="Prévisualation du projet"
+            width="300"
+          />
+        </article>
+
+        <article>
+          <h4>2nd projet : Martine part en voyage</h4>
+          <img
+            src="../assets/img/martine-part-en-voyage.png"
+            alt="Prévisualation du projet"
+            width="300"
+          />
+        </article>
+      </section>
+
+      <section id="formations">
+        <h2>Formations</h2>
+
+        <article>
+          <h4>Diginamic | 2024 - 2025</h4>
+          <p>
+            Préparation du titre RNCP de niveau 6 : Concepteur et Développeur
+            d'Applications
+          </p>
+        </article>
+
+        <article>
+          <h4>Wild Code School | 2022 - 2023</h4>
+          <p>
+            Préparation et obtention du titre RNCP de niveau 5 : Développeur web
+            et web mobile
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer id="cv-footer">
+      <p>Mes contact : LinkedIn / GitHub / Email / 06.95.35.74.08</p>
+      <p>© 2023 Killian PORTIER</p>
+    </footer>
+  </body>
+</html>

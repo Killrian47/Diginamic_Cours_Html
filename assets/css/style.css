@@ -1,0 +1,58 @@
+@import url(header.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+.cv-section-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+
+.cv-primary-title {
+    font-weight: 800;
+    animation: slide-to-right 1.5s ease-out;
+}
+
+.cv-profile-picture {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    animation: circle-turn 1.5s linear;
+}
+
+@keyframes slide-to-right {
+    0% {
+        transform: translateX(-300%);
+    }
+    25% {
+        transform: translateX(200%);
+    }
+    50% {
+        transform: translateX(-150%);
+    }
+    75% {
+        transform: translateX(75%);
+    }
+    100% {
+        transform: translateX(0);
+    } 
+}
+
+@keyframes circle-turn {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
